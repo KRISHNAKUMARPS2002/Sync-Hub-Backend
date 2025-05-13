@@ -52,15 +52,11 @@ This service provides a centralized API for client applications to synchronize d
 ## ⚙️ Installation
 
 
-
-Install dependencies
-
-bash
-Copy
-Edit
+Install dependencies:
 npm install
 # or
 yarn install
+
 Configure environment variables
 Create a .env file in the project root:
 
@@ -114,6 +110,8 @@ sync-service-api/
 ├── .env                 # Environment variables
 ├── server.js            # Application entry point
 └── package.json         # Project dependencies
+
+
 🔌 API Endpoints
 Admin Routes
 Method	Path	Description
